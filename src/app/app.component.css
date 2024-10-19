@@ -1,0 +1,68 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ff4d00; /* Cambia el color del borde */
+    border-radius: 8px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+    
+  h2 {
+    color: #feae00; /* Color azul para subtítulos */
+    text-align: center;
+  }
+
+  h3 {
+    color: #a4af0c; /* Color azul para subtítulos */
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333; /* Color oscuro para las etiquetas */
+  }
+  
+  input[type="text"], input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s;
+  }
+  
+  input[type="text"]:focus, input[type="number"]:focus {
+    border: 1px solid #2196f3; /* Color azul al enfocar */
+    outline: none; /* Elimina el contorno predeterminado */
+  }
+  
+  button {
+    background-color: #fe3535; /* Color de fondo verde para los botones */
+    color: white; /* Texto blanco */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #b32a1e; /* Color verde más oscuro al pasar el mouse */
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777; /* Color gris para el pie de página */
+    font-size: 14px;
+    background-color: #8fe2db;
+  }
